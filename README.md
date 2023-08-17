@@ -1,5 +1,15 @@
 # Conduit Arbitrum Tutorial
-Bridge to your arbitrum l3 deployed with Conduit
+Bridge to your arbitrum l3 deployed with Conduit. To run, first
+
+```
+git clone git@github.com:conduitxyz/arbitrum-tutorial.git
+```
+
+Then in the cloned directory
+
+```
+yarn install
+```
 
 You will need a private key, your conduit rpc URL, and your inbox contract address.
 
@@ -53,4 +63,6 @@ Your inbox contract address is available under `core.json` in your arbitrum orbi
 
 Take the `coreContracts.inbox` value and pass it into the command below.
 
+```
 PRIVATE_KEY=[YOUR_PRIVATE_KEY] L3_RPC_URL=[YOUR CONDUIT L3_RPC_URL] INBOX_CONTRACT_ADDRESS=[YOUR_INBOX_CONTRACT_ADDRESS] node index.js
+```
