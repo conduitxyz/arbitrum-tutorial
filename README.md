@@ -48,7 +48,8 @@ Your inbox contract address is available under `core.json` in your arbitrum orbi
       "wethGateway": "0x361E6430Abc9971e66E519dAe7544c1B0cC1035e"
     }
   }
-}```
+}
+```
 
 Take the `coreContracts.inbox` value and pass it into the command below.
 
