@@ -1,4 +1,6 @@
 # Conduit Arbitrum Tutorial
+
+## Bridging ETH
 Bridge to your arbitrum l3 deployed with Conduit. To run, first
 
 ```
@@ -66,3 +68,7 @@ Take the `coreContracts.inbox` value and pass it into the command below.
 ```
 PRIVATE_KEY=[YOUR_PRIVATE_KEY] L3_RPC_URL=[YOUR CONDUIT L3_RPC_URL] INBOX_CONTRACT_ADDRESS=[YOUR_INBOX_CONTRACT_ADDRESS] node index.js
 ```
+
+## Generalized Bridging
+You can customize the arbitrum sdk with this function: https://github.com/OffchainLabs/arbitrum-sdk/blob/8f56af98eb246e5ea5863dca6d8a6f7f0211477a/src/lib/dataEntities/networks.ts#L362
+
