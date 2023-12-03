@@ -66,7 +66,7 @@ Your inbox contract address is available under `core.json` in your arbitrum orbi
 Take the `coreContracts.inbox` value and pass it into the command below.
 
 ```
-PRIVATE_KEY=[YOUR_PRIVATE_KEY] L3_RPC_URL=[YOUR CONDUIT L3_RPC_URL] INBOX_CONTRACT_ADDRESS=[YOUR_INBOX_CONTRACT_ADDRESS] node index.js
+PRIVATE_KEY=[YOUR_PRIVATE_KEY] L2_RPC_URL=[YOUR PARENTCHAIN RPC URL] L3_RPC_URL=[YOUR CONDUIT L3_RPC_URL] INBOX_CONTRACT_ADDRESS=[YOUR_INBOX_CONTRACT_ADDRESS] node index.js
 ```
 
 ## Generalized Bridging
